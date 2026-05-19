@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NetworkPlayerController : NetworkBehaviour
 {
-    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float moveSpeed = -5f;
     [SerializeField] float gravity = -9.81f;
     [SerializeField] float groundedGravity = -2f;
 
